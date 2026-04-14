@@ -59,7 +59,7 @@ class _AppState extends State<App> {
       ),
       home: const Scaffold(
         body: Center(
-          child: Text('Flutter CI/CD Demo'),
+          child: Text('Flutter CI/CD Demo!'),
         ),
       ),
     );
