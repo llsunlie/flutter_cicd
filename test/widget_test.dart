@@ -5,6 +5,6 @@ void main() {
   testWidgets('app renders root title', (tester) async {
     await tester.pumpWidget(const App());
 
-    expect(find.text('Flutter CI/CD Demo'), findsOneWidget);
+    expect(find.text('Flutter CI/CD Demo!'), findsOneWidget);
   });
 }
